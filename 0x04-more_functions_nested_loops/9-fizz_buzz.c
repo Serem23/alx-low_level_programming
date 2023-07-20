@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-  *main - prints the numbers from 1 to 100
-  *for multiples of three prints Fizz 
-  *and for multiply of five prints Buzz
-  *Return: Always 0 (succeess)
-  */
+ *main - prints the numbers from 1 to 100
+ *for multiples of three prints Fizz
+ *and for multiply of five prints Buzz
+ *Return: Always 0 (succeess)
+ */
 int main(void)
 {
 	int i;
@@ -31,8 +31,7 @@ int main(void)
 		{
 			printf(" %d", i);
 		}
-		printf('\n');
-		return (0);
 	}
+	printf("\n");
+	return (0);
 }
-
