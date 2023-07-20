@@ -12,7 +12,8 @@ void print_number(int n)
 	{
 		nl = -n;
 		_putchar('_');
-	}else
+	}
+	else
 	{
 		nl = n;
 	}
