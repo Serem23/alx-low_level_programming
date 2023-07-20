@@ -1,11 +1,11 @@
-#
-#
+#include <stdio.h>
+#include <math.h>
 
 /**
-  *main - entry point 
-  *followed by a new line
-  *Return: Always 0 (success)
-  */
+ *main - entry point
+ *followed by a new line
+ *Return: Always 0 (success)
+ */
 int main(void)
 {
 	long int n;
@@ -29,8 +29,8 @@ int main(void)
 			n = n / i;
 		}
 	}
-	if (n > 20)
-			max = n;
-			printf("%ld\n", max);
+	if (n > 2)
+		max = n;
+	printf("%ld\n", max);
 			return (0);
 }
